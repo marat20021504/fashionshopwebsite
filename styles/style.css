@@ -179,4 +179,263 @@
     max-width: 100%;
   }
 }
+
+.section-2 {
+  width: 100%;
+  height: 100vh;
+  padding: 0 100px;
+}
+
+.section-2 .section-2-box {
+  width: 100%;
+  height: 120px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 0 50px;
+  background: #FFFFFF;
+  -webkit-box-shadow: 0px 3px 12px rgba(82, 61, 61, 0.08);
+          box-shadow: 0px 3px 12px rgba(82, 61, 61, 0.08);
+  border-radius: 20px;
+}
+
+.section-2 .section-2-box .box-texts {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 30px;
+}
+
+.section-2 .section-2-box .box-texts p {
+  color: #5C4946;
+  font-size: 20px;
+}
+
+.section-2 .section-2-box .box-texts span {
+  color: #5C4946;
+  font-size: 16px;
+}
+
+.section-2 .month-see {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 80px;
+}
+
+.section-2 .month-see h1 {
+  font-size: 40px;
+  color: #331C18;
+}
+
+.section-2 .month-see .see-icon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 10px;
+}
+
+.section-2 .month-see .see-icon p {
+  color: #331C18;
+  font-size: 24px;
+}
+
+.section-2 .girl-fashion-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 60px;
+}
+
+.section-2 .girl-fashion-box .girl-box {
+  width: 570px;
+  height: 300px;
+  background: rgba(255, 115, 13, 0.1);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 40px 30px;
+}
+
+.section-2 .girl-fashion-box .girl-box .girl-box-text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 10px;
+}
+
+.section-2 .girl-fashion-box .girl-box .girl-box-text h1 {
+  color: #331C18;
+  font-size: 30px;
+}
+
+.section-2 .girl-fashion-box .girl-box .girl-box-text .num-icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 10px;
+}
+
+.section-2 .girl-fashion-box .girl-box .girl-box-text .num-icons b {
+  color: #331C18;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.section-2 .girl-fashion-box .girl-box .girl-box-text .num-icons p {
+  color: #5C4946;
+  font-size: 12px;
+}
+
+.section-2 .girl-fashion-box .girl-box .girl-box-text .num {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 20px;
+}
+
+.section-2 .girl-fashion-box .girl-box .girl-box-text .num p {
+  color: #FF730D;
+  font-size: 14px;
+}
+
+.section-2 .girl-fashion-box .girl-box .girl-box-text .num del {
+  color: #978A89;
+  font-size: 14px;
+}
+
+.section-2 .girl-fashion-box .girl-box .girl-box-text .btn-icon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 15px;
+}
+
+.section-2 .girl-fashion-box .girl-box .girl-box-text .btn-icon button {
+  width: 170px;
+  height: 40px;
+  background: #FF730D;
+  border-radius: 8px;
+  border: none;
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.section-2 .girl-fashion-box .girl-box .girl-box-text .btn-icon button:hover {
+  background-color: white;
+  color: #FF730D;
+  border: 1px solid #FF730D;
+}
+
+.section-2 .girl-fashion-box .girl-box .girl-box-text .btn-icon .heart {
+  width: 40px;
+  height: 40px;
+  -webkit-filter: drop-shadow(0px 2px 12px rgba(0, 0, 0, 0.1));
+          filter: drop-shadow(0px 2px 12px rgba(0, 0, 0, 0.1));
+  background-color: white;
+  border-radius: 4px;
+  padding: 10px 8px;
+}
+
+@media (max-width: 600px) {
+  .section-2 {
+    padding: 20px;
+    height: auto;
+  }
+  .section-2 .section-2-box {
+    width: 100%;
+    height: auto;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    gap: 10px;
+    padding: 10px;
+  }
+  .section-2 .section-2-box span {
+    text-align: center;
+  }
+  .section-2 .section-2-box p {
+    font-size: 15px;
+    text-align: center;
+  }
+  .section-2 .month-see {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin-top: 20px;
+    gap: 10px;
+  }
+  .section-2 .month-see h1 {
+    text-align: center;
+  }
+  .section-2 .girl-fashion-box {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    gap: 10px;
+  }
+  .section-2 .girl-fashion-box .girl-box {
+    width: 100%;
+    height: auto;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .section-2 .girl-fashion-box .girl-box .girl-box-text {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    gap: 15px;
+  }
+  .section-2 .girl-fashion-box .girl-box .img img {
+    position: relative;
+    bottom: -100px;
+  }
+}
 /*# sourceMappingURL=style.css.map */
