@@ -1,0 +1,109 @@
+.section-5 {
+    width: 100%;
+    height: auto;
+
+    .section-5-contanier {
+        width: 100%;
+        height: 100%;
+        background-image: url("/assets/Group\ 950.svg");
+        background-position: center;
+        background-size: cover;
+        display: flex;
+        align-items: center;
+
+        .contanier-5-img {
+            width: 50%;
+            height: 100%;
+            position: relative;
+
+            .con-5-ellips {
+                position: relative;
+                z-index: 0;
+
+                img {
+
+                    &:nth-child(1) {
+                        position: absolute;
+                        top: -350px;
+                        left: 100px;
+                    }
+
+                    &:nth-child(2) {
+                        position: absolute;
+                        top: -250px;
+                        left: 55%;
+                    }
+
+                }
+            
+            }
+
+        }
+
+        .contanier-5-text {
+            width: 50%;
+            height: 100%;
+            
+            h1 {
+                color: #331C18;
+                font-size: 80px;
+            }
+
+            p {
+                color: #FF730D;
+                font-size: 50px;
+                margin-top: 20px;
+            }
+
+            button {
+                width: 170px;
+                height: 40px;
+                background: #FF730D;
+                border-radius: 8px;
+                border: none;
+                color: white;
+                font-size: 16px;
+                margin-top: 40px;
+            }
+
+        }
+
+    }
+
+}
+
+@media (max-width: 600px) {
+    .section-5 {
+        .section-5-contanier {
+            padding: 20px;
+            flex-direction: column;
+            gap: 20px;
+
+            .contanier-5-img {
+                width: 100%;
+            }
+
+            .contanier-5-text {
+                width: 100%;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+
+                h1 {
+                    text-align: center;
+                }
+
+                p {
+                    text-align: center;
+                }
+
+                button {
+                    margin: auto;
+                    margin-top: 20px;
+                }
+
+            }
+
+        }
+    }
+}
