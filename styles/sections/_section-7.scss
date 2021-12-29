@@ -1,0 +1,247 @@
+.section-7 {
+    width: 100%;
+    height: 100vh;
+    padding: 50px 100px;
+
+    .month-see {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 40px;
+
+        h1 {
+            font-size: 40px;
+            color: #331C18;
+        }
+
+        .see-icon {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+
+            p {
+                color: #331C18;
+                font-size: 24px;
+            }
+
+        }
+
+    }
+
+    .section-7-contanier {
+        display: flex;
+        gap: 30px;
+        width: 100%;
+        height: calc(100vh - 140px);
+
+        .fashion-box {
+            width: 50%;
+            height: 100%;
+            background-image: url("/assets/blissful-curly-girl-light-vintage-dress-looking-down-while-posing-adorable-sister\ 1.svg");
+            background-position: center;
+            background-size: cover;
+            position: relative;
+
+            .fashion-style {
+                width: 400px;
+                height: 200px;
+                background: #673613;
+                opacity: 0.5;
+                border-radius: 50px 50px 0px 0px;
+                position: absolute;
+                left: 50%;
+                bottom: 0;
+                transform: translate(-50%,-0);
+                display: flex;
+                gap: 10px;
+                flex-direction: column;
+                align-items: center;
+
+                h2 {
+                    margin-top: 32px;
+                    color: white;
+                    font-size: 30px;
+                    font-weight: bold;
+                }
+
+                p {
+                    color: white;
+                    font-size: 16px;
+                    text-align: center;
+                }
+
+                button {
+                    width: 180px;
+                    height: 40px;
+                    background: #FF730D;
+                    border-radius: 8px;
+                    color: white;
+                    font-size: 16px;
+                    border: none;
+                }
+
+            }
+
+        }
+
+        .sec-fashion-box {
+            width: 50%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+
+            .firt-box {
+                width: 100%;
+                height: 50%;
+                display: flex;
+                align-items: center;
+                gap: 20px;
+
+                .img-first {
+                    width: 50%;
+                    height: 100%;
+                    background-image: url("/assets/cute-stylish-children\ 1.svg");
+                    background-position: center;
+                    background-size: cover;
+                }
+
+                .first-box-text {
+                    h1 {
+                        color: #331C18;
+                        font-size: 30px;
+                        font-weight: bold;
+                    }
+
+                    p {
+                        margin-top: 15px;
+                        color: #331C18;
+                        font-size: 16px;
+                    }
+
+                    button {
+                        margin-top: 15px;
+                        width: 180px;
+                        height: 40px;
+                        background: #FF730D;
+                        border-radius: 8px;
+                        border: none;
+                        color: white;
+                        font-size: 16px;
+                        font-weight: bold;                        
+                    }
+
+                }
+
+            }
+
+            .second-box {
+                width: 100%;
+                height: 50%;
+                display: flex;
+                align-items: center;
+                gap: 20px;
+
+                .img-first {
+                    width: 50%;
+                    height: 100%;
+                    background-image: url("/assets/enchanting-blinde-woman-trendy-knitted-sweater-expressing-happiness-indoor-portrait-charming-european-woman-standing-orange\ 1.svg");
+                    background-position: center;
+                    background-size: cover;
+                }
+
+                .first-box-text {
+                    h1 {
+                        color: #331C18;
+                        font-size: 30px;
+                        font-weight: bold;
+                    }
+
+                    p {
+                        margin-top: 15px;
+                        color: #331C18;
+                        font-size: 16px;
+                    }
+
+                    button {
+                        margin-top: 15px;
+                        width: 180px;
+                        height: 40px;
+                        background: #FF730D;
+                        border-radius: 8px;
+                        border: none;
+                        color: white;
+                        font-size: 16px;
+                        font-weight: bold;                        
+                    }
+
+                }
+
+            }
+
+        }
+
+
+    }
+
+}
+
+@media (max-width: 600px) {
+    .section-7 {
+        padding: 20px;
+        height: auto;
+
+        .month-see {
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .section-7-contanier {
+            flex-direction: column;
+            gap: 10px;
+            height: 130vh;
+
+            .fashion-box {
+                width: 100%;
+            }
+
+           .sec-fashion-box {
+               width: 100%;
+
+               .firt-box {
+                   flex-direction: column;
+
+                    .img-first {
+                        width: 100%;
+                        height: 200px;
+                    }
+
+                    .first-box-text {
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center ;
+                    }
+
+                }
+
+            }
+
+            .second-box {
+                flex-direction: column;
+
+                .img-first {
+                    width: 100%;
+                }
+
+                .first-box-text {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center ;
+                }
+
+            }
+
+        }
+
+    }
+}
